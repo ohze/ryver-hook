@@ -1,0 +1,30 @@
+{
+  "name": "ryver-hook",
+  "version": "1.0.0",
+  "description": "ryver hook",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "tsc",
+    "test": "tsc",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohze/ryver-hook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohze/ryver-hook/issues"
+  },
+  "homepage": "https://github.com/ohze/ryver-hook#readme",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.39",
+    "@types/koa-bodyparser": "^3.0.25",
+    "typescript": "^2.5.3"
+  }
+}
